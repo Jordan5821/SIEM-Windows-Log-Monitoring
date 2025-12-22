@@ -1,12 +1,15 @@
 # SIEM-Windows -Log-Monitoring {SOC Lab}
 Project Overview
-This project simulates **Tier 1 SOC
-analyst log monitoring and
+This project demonstrates SOC
+analyst-style investigation of Windows
 investigation** using Windows Security
-Event Logs.
-I analyzed authentication activity,
-process execution, and account changes
-to identify suspicious behavior.
+Security logs
+I analyzed authentication events,
+process creation, and account creation
+activity using
+Windows Event Viewer and PowerShell to
+identify suspicious behavior and 
+document finding.
 ## Objectives
 Monitor Windows Security Event Logs
 Detect failed andsuccessful login
