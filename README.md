@@ -1,33 +1,62 @@
-# SIEM-Windows -Log-Monitoring
-Project Title:Seim-Windows Log
-Monitoring
-Project Overview:
-This project is about monitoring Windows
-logs and identifying suspicious activity. I
-used Windows Event Viewer and PowerShell
-to investigate login events,failed logins,and
-process activity.
-Objectives
-Understand Windows event logs
-Identify important Event IDs
-Detect suspicious login attempts and
-processes
+# SIEM-Windows -Log-Monitoring {SOC Lab}
+Project Overview
+This project simulates **Tier 1 SOC
+analyst log monitoring and
+investigation** using Windows Security
+Event Logs.
+I analyzed authentication activity,
+process execution, and account changes
+to identify suspicious behavior.
+## Objectives
+Monitor Windows Security Event Logs
+Detect failed andsuccessful login
+attempts
+Investigate new process creation
+Review user account creation events
 Document finding like a SOC analyst
-Tools Used:
+## Tools Used
 Windows Event Viewer
 PowerShell
-TryHackMe
-Github
-Important Event IDs:
-4624=Successful login
-4625=Failed login
-4688=New process created
-4720=New user account created
-Screenshot:
-{Here I will upload my screenshots of Event
-Viewer and PowerShell)
-What I Learned:
-I learned how to detect suspicious activity
-using Windows logs, how to read event
-details,and how to identify bad processes
-and login attempts.
+TryHackMe lab environment
+GitHub (documentation}
+## Key Event IDs Analyzed
+## 4624=Successful login
+## 4625=Failed login
+## 4688=New process created
+## 4720=New user account created
+## Investigation Scenario
+During log review, multiple failed
+login attempts were identified
+followed by a successful
+authentication.
+Process creation events were analyzed
+to determine legitimacy, and user
+account creation logs were reviewed to
+confirm authorized activity.
+## Evidence / Screenshots
+Screenshots included demonstrate:
+Windows Security Event Logs
+PowerShell queries used for
+investigation
+Event details used to validate
+activity
+## Finding
+Identified repeated failed login
+attempts that could indicate
+brute-force behavior
+Verified successful login against
+expected user activity
+Reviewed process execution events
+were legitimate
+## What I Learned
+How SOC analysts investigate Windows
+Security logs
+How to correlate Event IDs during
+alert triage
+How to use PowerShell for faster log
+analysis
+How to document security findings
+clearly
+
+
+
