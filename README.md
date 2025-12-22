@@ -20,10 +20,10 @@ PowerShell
 TryHackMe lab environment
 GitHub (documentation}
 ## Key Event IDs Analyzed
-## 4624=Successful login
-## 4625=Failed login
-## 4688=New process created
-## 4720=New user account created
+## 4624-Successful login
+## 4625-Failed login
+## 4688-New process created
+## 4720-New user account created
 ## Investigation Scenario
 During log review, multiple failed
 login attempts were identified
