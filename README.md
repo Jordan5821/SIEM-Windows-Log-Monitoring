@@ -3,7 +3,7 @@ Project Overview
 This project demonstrates SOC
 analyst-style investigation of Windows
 investigation** using Windows Security
-Security logs
+logs
 I analyzed authentication events,
 process creation, and account creation
 activity using
