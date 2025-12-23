@@ -12,7 +12,7 @@ identify suspicious behavior and
 document finding.
 ## Objectives
 Monitor Windows Security Event Logs
-Detect failed andsuccessful login
+Detect failed and successful login
 attempts
 Investigate new process creation
 Review user account creation events
